@@ -1,0 +1,17 @@
+div.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+div.header {
+  margin-top: 100px;
+}
+
+form > div.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+div.grid input {
+  margin-right: 20px;
+}
