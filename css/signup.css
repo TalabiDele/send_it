@@ -1,17 +1,36 @@
 div.form {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+h1 {
+  margin-bottom: 10px;
 }
 
 div.header {
-  margin-top: 100px;
+  margin-top: ;
 }
 
-form > div.grid {
+form>div.grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
-div.grid input {
-  margin-right: 20px;
+div.grid input,
+.address {
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 5px;
+  /* height: 30px; */
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 300px;
+  font-size: 1rem;
+}
+
+.sex {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  margin-right: 10px;
 }
