@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <title>SendIT</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="navigation">
+        <nav>
+          <a href="home.html"><img src="/img/logo.png" alt=""/></a>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="orders.html">Orders</a></li>
+            <li><a href="home.html">Logout</a></li>
+            <li>
+              <a href=""
+                ><img
+                  src="/img/_MG_0814 copy.jpg"
+                  alt=""
+                  width="50px"
+                  height="50px"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <section class="main_content">
+      <div class="history">
+        <h1>
+          Delivery history
+        </h1>
+        <div id="parcel">
+          <i class="fa fa-paper-plane fa-2x"></i>
+          <div>
+            <p>
+              Parcel: 5 Hand bags
+            </p>
+            <p>
+              Destination: Ibadan
+            </p>
+            <p>
+              Status: Delivered
+            </p>
+          </div>
+        </div>
+        <div id="parcel">
+          <i class="fa fa-paper-plane fa-2x"></i>
+          <div>
+            <p>
+              Parcel: 1 Bycicle
+            </p>
+            <p>
+              Destination: Abuja
+            </p>
+            <p>
+              Status: Delivered
+            </p>
+          </div>
+        </div>
+        <div id="parcel">
+          <i class="fa fa-paper-plane fa-2x"></i>
+          <div>
+            <p>
+              Parcel: Cake
+            </p>
+            <p>
+              Destination: Lekki, Lagos
+            </p>
+            <p>
+              Status: Delivered
+            </p>
+          </div>
+        </div>
+        <div id="parcel">
+          <i class="fa fa-paper-plane fa-2x"></i>
+          <div>
+            <p>
+              Parcel: Hamper
+            </p>
+            <p>
+              Destination: Imo
+            </p>
+            <p>
+              Status: En-route
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="parcel_info">
+        <form action="" id="create_order">
+          <h1>Create Parcel Order</h1>
+          <div class="names">
+            <input type="text" placeholder="Sender" id="sender" />
+            <input type="text" placeholder="Recipient" id="recipient" />
+          </div>
+          <input type="text" placeholder="Content of parcel" id="content" />
+          <br />
+          <input type="text" placeholder="Pickup location" id="pickup" /><br />
+          <input type="text" placeholder="Destination" id="destination" />
+          <br />
+          <button class="btn_submit">Submit</button>
+        </form>
+        <div class="parcel_orders">
+          <h2>Parcel Orders</h2>
+          <div class="orders">
+            <div>
+              <p>Content: 5 Handbags</p>
+              <p>Destination: Ibadan</p>
+              <p>Current Location: Ogun State</p>
+              <button>Change Location</button>
+            </div>
+            <div>
+              <p>Content: 1 Bycicle</p>
+              <p>Destination: Abuja</p>
+              <p>Current Location: Lokoja</p>
+              <button>Change Location</button>
+            </div>
+          </div>
+          <div class="orders">
+            <div>
+              <p>Content: Cake</p>
+              <p>Destination: Lekki, Lagos</p>
+              <p>Current Location: Ikeja</p>
+              <button>Change Location</button>
+            </div>
+            <div>
+              <p>Content: Hamper</p>
+              <p>Destination: Imo</p>
+              <p>Current Location: Benin</p>
+              <button>Change Location</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/app.js"></script>
+  </body>
+</html>
